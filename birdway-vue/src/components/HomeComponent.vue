@@ -1,5 +1,5 @@
 <template>
-    <h1>Hello Router</h1>
+    <h2>Esta es la vista de Home</h2> 
 </template>
 
 <script>
