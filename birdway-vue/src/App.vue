@@ -8,10 +8,9 @@
 <template>
   <body>
     <div id="app">
-      <nav>
-        <router-link to="/">[HOME]</router-link>
-        
-        <router-link to="/about">about</router-link>
+      <nav class="main-nav">
+        <router-link class="nav-a" to="/">[HOME]</router-link>
+        <router-link class="nav-a" to="/about">about</router-link>
       </nav>
     
       <router-view></router-view>
@@ -30,15 +29,30 @@
 </script>
 
 
-<style scoped>
+<style>
+
 *{
-  color: #000;
+  box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  overflow: hidden;
+ 
 }
 
 body{
-  width: 99vw ;
+  width: 100vw ;
+  overflow-x: hidden;
+}
+
+.main-nav{
+  background-color: green ;
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  height: 2.5em;
+  color: blue;
+}
+
+.nav-a:hover{
+  color: greenyellow;
 }
 </style>
