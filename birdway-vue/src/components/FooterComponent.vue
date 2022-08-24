@@ -5,11 +5,13 @@
             <p>holaaaaaa</p>
         </footer> -->
     <div class="footer">
-      <div id="button"></div>
+      <div id="button">	&#11165;</div>
       <div id="container">
         <div id="cont">
           <div class="footer_center">
             <h3>Classy footer text</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti quibusdam incidunt libero corrupti dolores quia nulla similique distinctio, quidem eius alias possimus ab dolorem necessitatibus reiciendis omnis, consequuntur nostrum unde!
+            </p>
           </div>
         </div>
       </div>
@@ -48,8 +50,8 @@ section {
   text-align: center;
   color: #2ecc71;
   margin-left: 20px;
-  border: #1b8a20 12px solid;
-  border-radius: 50px;
+  /* border: #1b8a20 12px solid;
+  border-radius: 50px; */
   background-image: url(./icons/right-arrow.png);
   margin: 0 auto;
   margin-bottom: 0px;
@@ -59,6 +61,7 @@ section {
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
   transition: all 1s ease;
+  font-size: 30px;
 }
 
 .footer #button:hover {
@@ -87,6 +90,7 @@ section {
   -ms-transition: all 1s ease;
   transition: all 1s ease;
   z-index: 999;
+  text-align: left;
 }
 
 .footer:hover {

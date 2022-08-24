@@ -1,4 +1,5 @@
 <script setup>
+import HeaderComponent from './components/HeaderComponent.vue';
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
  
@@ -8,11 +9,7 @@
 <template>
   <body>
     <div id="app">
-      <nav class="main-nav">
-        <router-link class="nav-a" to="/">[HOME]</router-link>
-        <router-link class="nav-a" to="/about">about</router-link>
-      </nav>
-    
+      <HeaderComponent></HeaderComponent>
       <router-view></router-view>
     
       <div>
@@ -26,6 +23,7 @@
 
 <script>
   import FooterComponent from './components/FooterComponent.vue';
+  import HeaderComponentVue from './components/HeaderComponent.vue';
 </script>
 
 
@@ -35,7 +33,7 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
- 
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 body{

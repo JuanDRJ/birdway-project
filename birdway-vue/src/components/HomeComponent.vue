@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="home">
     <h2>Esta es la vista de Home</h2>
     <div class="main-home">
       <img
@@ -11,15 +11,16 @@
         <div class="traveler-option">
           <div class="traveler-option-card">
             <img src="../assets/icons/tourist.png" alt="" />
-            <router-link class="profile-link" to="/about">Soy Viajero</router-link>
-            </div>
+            <router-link class="profile-link" to="/about"
+              >Soy Viajero</router-link
+            >
+          </div>
         </div>
 
         <div class="traveler-option">
           <div class="traveler-option-card">
             <img src="../assets/icons/explore.png" alt="" />
-            <router-link class="profile-link" to="/about">Soy Guía</router-link
-            >
+            <router-link class="profile-link" to="/about">Soy Guía</router-link>
           </div>
         </div>
       </div>
@@ -90,7 +91,7 @@
   flex-direction: column;
 }
 
-.profile-link:hover{
+.profile-link:hover {
   color: aqua;
 }
 </style>
