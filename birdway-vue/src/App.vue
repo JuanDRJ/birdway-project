@@ -10,10 +10,12 @@ import HeaderComponent from './components/HeaderComponent.vue';
   <body>
     <div id="app">
       <HeaderComponent></HeaderComponent>
+
+
       <router-view></router-view>
-    
+      
       <div>
-        <FooterComponent></FooterComponent>
+      <FooterComponent></FooterComponent>
       </div>
       
     </div>
@@ -39,18 +41,16 @@ import HeaderComponent from './components/HeaderComponent.vue';
 body{
   width: 100vw ;
   overflow-x: hidden;
+  background: #F7CE40;
 }
 
-.main-nav{
-  background-color: green ;
-  display: flex;
-  gap: 20px;
-  justify-content: space-evenly;
-  height: 2.5em;
-  color: blue;
-}
 
-.nav-a:hover{
-  color: greenyellow;
+/* MATERIAL ICONS */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
 </style>

@@ -29,16 +29,8 @@
   color: white;
 }
  */
+
 /* FOOTER */
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
-
-body {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
-  background-color: rgb(255, 255, 255);
-  color: #fff;
-}
-
 section {
   text-align: center;
 }
@@ -48,7 +40,7 @@ section {
   height: 30px;
   font-size: 60px;
   text-align: center;
-  color: #2ecc71;
+  color: #88D318;
   margin-left: 20px;
   /* border: #1b8a20 12px solid;
   border-radius: 50px; */
@@ -74,6 +66,7 @@ section {
   -ms-transition: all 1s ease;
   transition: all 1s ease;
   position: relative;
+  text-shadow:  2px 2px#88D318;
 }
 
 .footer {
@@ -109,7 +102,9 @@ section {
   position: relative;
   top: 0;
   left: 0;
-  background: #3a3a3a;
+  background: rgba(32, 57, 42, 1);
+  color: #F7CE40;
+  border-top: 5px solid #f7ce40;
 }
 
 .footer #cont {
