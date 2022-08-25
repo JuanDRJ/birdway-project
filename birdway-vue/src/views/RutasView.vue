@@ -1,16 +1,16 @@
 <template>
-    <AboutComponent></AboutComponent>
+    <RutasComponent></RutasComponent>
 </template>
 
 
 <script>
     import { defineComponent } from 'vue';
-    import AboutComponent from '../components/AboutComponent.vue'
+    import RutasComponent from '../components/RutasComponent.vue'
 
 export default defineComponent({
-  name: 'AboutView',
+  name: 'RutasView',
   components: {
-    AboutComponent,
+    RutasComponent,
   },
 });
 </script>

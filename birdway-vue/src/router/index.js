@@ -2,7 +2,10 @@
 // These can be imported from other files
 import {createRouter,createWebHashHistory} from 'vue-router';
 import HomeView  from '../views/HomeView.vue';
-import AboutView from '../views/AboutView.vue';
+import RutasView from '../views/RutasView.vue';
+/* import MapasView from  '../views/MapasView.vue'; */
+import GuiasView from '../views/GuiasView.vue';
+
 /* import App from '../App.vue'; */
 
 // 2. Define some routes
@@ -13,9 +16,15 @@ const routes = [
     name: HomeView, 
     component: HomeView,
   },
-  { path: '/about',
-    name: AboutView, 
-    component: AboutView},
+  { path: '/rutas',
+    name: RutasView, 
+    component: RutasView},
+  { path: '/guias',
+    name: GuiasView, 
+    component: GuiasView},
+/*   { path: '/mapa',
+    name: MapasView, 
+    component: MapasView}, */
  /*  { path: '/about', component: About }, */
 ]
 

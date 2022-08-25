@@ -9,9 +9,7 @@ import HeaderComponent from './components/HeaderComponent.vue';
 <template>
   <body>
     <div id="app">
-      <HeaderComponent></HeaderComponent>
-
-
+        <HeaderComponent class="header"></HeaderComponent>
       <router-view></router-view>
       
       <div>
@@ -41,7 +39,6 @@ import HeaderComponent from './components/HeaderComponent.vue';
 body{
   width: 100vw ;
   overflow-x: hidden;
-  background: #F7CE40;
 }
 
 
@@ -52,5 +49,10 @@ body{
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
+}
+
+
+.header{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 </style>

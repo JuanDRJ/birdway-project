@@ -1,6 +1,9 @@
 <template>
   <div>
-    <p>VISTA DE HOME</p>
+    <container>
+      <img src="https://wallpapercave.com/wp/wp2284850.jpg" alt="bird">
+    </container>
+    
   </div>
 </template>
 
@@ -12,5 +15,8 @@
 
 <style scoped>
 
+img{
+  width: 100vw;
+}
 </style>
 

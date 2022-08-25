@@ -66,7 +66,7 @@ section {
   -ms-transition: all 1s ease;
   transition: all 1s ease;
   position: relative;
-  text-shadow:  2px 2px#88D318;
+  text-shadow:  2px 2px;
 }
 
 .footer {
@@ -102,9 +102,9 @@ section {
   position: relative;
   top: 0;
   left: 0;
-  background: rgba(32, 57, 42, 1);
-  color: #F7CE40;
-  border-top: 5px solid #f7ce40;
+  background: rgb(241, 241, 241);
+  color: #21882d;
+  border-top: 5px solid #21882d;
 }
 
 .footer #cont {
