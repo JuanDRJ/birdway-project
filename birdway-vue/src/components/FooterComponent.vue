@@ -9,9 +9,8 @@
       <div id="container">
         <div id="cont">
           <div class="footer_center">
-            <h3>Classy footer text</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti quibusdam incidunt libero corrupti dolores quia nulla similique distinctio, quidem eius alias possimus ab dolorem necessitatibus reiciendis omnis, consequuntur nostrum unde!
-            </p>
+            <h3>Creaado por: Juan David Ramírez</h3>
+            
           </div>
         </div>
       </div>

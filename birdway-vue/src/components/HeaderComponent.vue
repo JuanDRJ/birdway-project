@@ -11,10 +11,10 @@
       </router-link>
     </div>
     <div class="nav-list">
-      <router-link class="nav-a" to="/">Inicio</router-link>
-      <router-link class="nav-a" to="/rutas">Rutas</router-link>
-      <router-link class="nav-a" to="/guias">Guías</router-link>
-      <router-link class="nav-a" to="/mapa">Mapa Interactivo</router-link>
+      <router-link class="nav-a" to="/"><span class="material-symbols-outlined">home</span><div class="nav-text">Inicio</div></router-link>
+      <router-link class="nav-a" to="/rutas"><span class="material-symbols-outlined">explore</span><div class="nav-text">Rutas</div></router-link>
+      <router-link class="nav-a" to="/guias"><span class="material-symbols-outlined">hiking</span><div class="nav-text">Guías</div></router-link>
+      <router-link class="nav-a" to="/mapa"><span class="material-symbols-outlined">travel_explore</span><div class="nav-text">Mapa Interactivo</div></router-link>
     </div>
   <!--   search -->
     <div class="search-container">
@@ -24,14 +24,21 @@
       </button>
     </div>
     <!--  DROP DOWN -->
-    <div class="dropdown">
-      <button class="dropbtn">&#x25BC;</button>
-      <div class="dropdown-content">
-      <a href="#">Ingresar</a>
-      <a href="#">Registrarse</a>
-      <a href="#">Ajustes</a>
+    <div>
+      <div class="dropdown">
+        <button class="dropbtn"><span class="material-symbols-outlined">expand_more</span></button>
+        <div class="dropdown-content">
+        <a href="#">Ingresar</a>
+        <a href="#">Registrarse</a>
+        <a href="#">Ajustes</a>
+      </div>
+    
+      </div>
+      <!-- SETTINGS -->
+       <a href="#">
+        <span class="material-symbols-outlined settings-icon">settings</span>
+       </a>
     </div>
-</div>
 
   </nav>
 </template>
@@ -65,6 +72,12 @@
   margin: auto;
   margin-left: 10px;
   padding: 2px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: #f3f3f3 1px solid;
+  border-left: #f3f3f3 1px solid;
 }
 
 .nav-a:visited {
@@ -77,6 +90,8 @@
   color: #fff;
   box-shadow: inset 300px 0 0 0 #21882d;
 }
+
+
 
 .search-container {
   display: flex;
@@ -174,6 +189,21 @@ input:focus {
 
 .dropdown:hover .dropbtn {
   background-color: #ffffff;
+}
+
+.settings-icon{
+  color:#5f5f5f;
+}
+
+.settings-icon:hover{
+  color:#25aa58;
+  transition: 300ms ease;
+}
+
+@media screen and (max-width:650px){
+  .nav-text{
+    display:none;
+  }
 }
 </style>
 
