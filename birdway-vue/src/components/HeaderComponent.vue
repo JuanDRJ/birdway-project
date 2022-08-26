@@ -11,10 +11,10 @@
       </router-link>
     </div>
     <div class="nav-list">
-      <router-link class="nav-a" to="/">INICIO</router-link>
-      <router-link class="nav-a" to="/rutas">RUTAS</router-link>
-      <router-link class="nav-a" to="/guias">GUÍAS</router-link>
-      <router-link class="nav-a" to="/mapa">MAPA INTERACTIVO</router-link>
+      <router-link class="nav-a" to="/">Inicio</router-link>
+      <router-link class="nav-a" to="/rutas">Rutas</router-link>
+      <router-link class="nav-a" to="/guias">Guías</router-link>
+      <router-link class="nav-a" to="/mapa">Mapa Interactivo</router-link>
     </div>
   <!--   search -->
     <div class="search-container">
@@ -27,9 +27,9 @@
     <div class="dropdown">
       <button class="dropbtn">&#x25BC;</button>
       <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+      <a href="#">Ingresar</a>
+      <a href="#">Registrarse</a>
+      <a href="#">Ajustes</a>
     </div>
 </div>
 
