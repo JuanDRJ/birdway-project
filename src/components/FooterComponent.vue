@@ -9,7 +9,7 @@
       <div id="container">
         <div id="cont">
           <div class="footer_center">
-            <h3>Creaado por: Juan David Ramírez</h3>
+            <h3>Creado por: Juan David Ramírez</h3>
             
           </div>
         </div>

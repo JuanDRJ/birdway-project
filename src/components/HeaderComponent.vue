@@ -16,7 +16,7 @@
       <router-link class="nav-a" to="/guias"><span class="material-symbols-outlined">hiking</span><div class="nav-text">Guías</div></router-link>
       <router-link class="nav-a" to="/mapa"><span class="material-symbols-outlined">travel_explore</span><div class="nav-text">Mapa Interactivo</div></router-link>
     </div>
-  <!--   search -->
+  <!--   SEARCH -->
     <div class="search-container">
       <input placeholder="Buscar Rutas" class="search-bar" type="text" />
       <button>

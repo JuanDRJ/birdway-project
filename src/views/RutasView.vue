@@ -1,5 +1,8 @@
 <template>
-    <RutasComponent></RutasComponent>
+    <div>
+      <RutasComponent></RutasComponent>
+      <p>Hola view</p>
+    </div>
 </template>
 
 
