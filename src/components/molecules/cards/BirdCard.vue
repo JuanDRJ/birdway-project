@@ -7,11 +7,9 @@
         alt="bird-img"
       />
     </div>
-    <h2>This is card</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi error iste
-      voluptatem quisquam aut distinctio.
-    </p>
+    <h2>{{birdName}}</h2>
+    <p>{{birdDescription}} descripcion</p>
+
     <SecondaryButton class="card-button" inner-text="leer más"/>
   </div>
 </template>
@@ -51,4 +49,8 @@
 <script setup>
 import SecondaryButton from '../../atoms/buttons/SecondaryButton.vue';
 
+const props = defineProps({
+  birdName: String,
+  birdDescription: String,
+})
 </script>
