@@ -1,5 +1,8 @@
 <template>
-    <HomeComponent/>    
+    <div>
+      <HomeComponent/> 
+      <p>Vista home</p>  
+    </div> 
 </template>
 
 <script>

@@ -3,7 +3,7 @@
 import {createRouter,createWebHashHistory} from 'vue-router';
 import HomeView  from '../views/HomeView.vue';
 import RutasView from '../views/RutasView.vue';
-/* import MapasView from  '../views/MapasView.vue'; */
+import MapasView from  '../views/MapasView.vue';
 import GuiasView from '../views/GuiasView.vue';
 
 /* import App from '../App.vue'; */
@@ -22,9 +22,9 @@ const routes = [
   { path: '/guias',
     name: GuiasView, 
     component: GuiasView},
-/*   { path: '/mapa',
+  { path: '/mapa',
     name: MapasView, 
-    component: MapasView}, */
+    component: MapasView},
  /*  { path: '/about', component: About }, */
 ]
 

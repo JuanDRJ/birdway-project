@@ -1,12 +1,17 @@
 <template>
         <div>
-                <p>Esta es la vista de rutas</p> 
-                <h1>RUTAS</h1>
+                <MainButton inner-text="Rutas buton"/>
+                <SecondaryButton inner-text="Secondary rutas"/>
         </div>
 </template>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
   h1{
         color: black;
   }
 </style>
+
+<script setup>
+        import MainButton from './atoms/buttons/MainButton.vue';
+import SecondaryButton from './atoms/buttons/SecondaryButton.vue';
+</script>
