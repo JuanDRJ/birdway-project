@@ -3,12 +3,12 @@
     
     <div class="img-container">
       <img
-        src="https://images.unsplash.com/photo-1620588280212-bf1d2b23b112?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmlyZCUyMGluJTIwZmxpZ2h0fGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+        :src= birdImg
         alt="bird-img"
       />
     </div>
     <h2>{{birdName}}</h2>
-    <p>{{birdDescription}} descripcion</p>
+    <p>{{birdDescription}}</p>
 
     <SecondaryButton class="card-button" inner-text="leer más"/>
   </div>
@@ -52,5 +52,9 @@ import SecondaryButton from '../../atoms/buttons/SecondaryButton.vue';
 const props = defineProps({
   birdName: String,
   birdDescription: String,
+  birdImg: String,
 })
+
+// variable
+
 </script>

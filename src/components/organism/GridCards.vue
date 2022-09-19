@@ -3,7 +3,9 @@
     <BirdCard v-for="item in items" 
      :key="item.id"
      bird-name="nombre del ave" 
+     bird-img="https://birdsofcolombia.com/images/editor-content/804a0f11051f476ddc7b8299952965d4_multicoloredtanager.jpg"
      bird-description="Esta es la descripcion del ave" 
+     class="bird-card"
       />
   </div>
 </template>
@@ -11,6 +13,7 @@
 <style scoped>
 .card-container {
   display: flex;
+  flex-direction: row;
 }
 </style>
 
