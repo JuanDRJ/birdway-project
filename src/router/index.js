@@ -5,7 +5,9 @@ import HomeView  from '../views/HomeView.vue';
 import RutasView from '../views/RutasView.vue';
 import MapasView from  '../views/MapasView.vue';
 import GuiasView from '../views/GuiasView.vue';
-
+import LoginView from '../views/LoginView.vue';
+import SigninView from '../views/SigninView.vue';
+import SettingsView from '../views/SettingsView.vue';
 /* import App from '../App.vue'; */
 
 // 2. Define some routes
@@ -25,6 +27,15 @@ const routes = [
   { path: '/mapa',
     name: MapasView, 
     component: MapasView},
+  { path: '/login',
+    name: LoginView, 
+    component: LoginView},
+  { path: '/signin',
+    name: SigninView, 
+    component: SigninView},
+  { path: '/settings',
+    name: SettingsView, 
+    component: SettingsView},
  /*  { path: '/about', component: About }, */
 ]
 

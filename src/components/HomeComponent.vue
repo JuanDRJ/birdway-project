@@ -6,7 +6,7 @@
         <SecondaryButton inner-text="My secondary"/> -->
 
         <!-- <BirdCard/> -->
-
+        <HomeHeader></HomeHeader>
         <GridCards/>
       </div>
 </template>
@@ -20,5 +20,6 @@
   import SecondaryButton from './atoms/buttons/SecondaryButton.vue';
   import BirdCard from './molecules/cards/BirdCard.vue'
   import GridCards from './organism/GridCards.vue';
+import HomeHeader from './organism/HomeHeader.vue';
 </script>
     

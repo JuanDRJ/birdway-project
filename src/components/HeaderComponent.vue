@@ -28,9 +28,9 @@
       <div class="dropdown">
         <button class="dropbtn"><span class="material-symbols-outlined">expand_more</span></button>
         <div class="dropdown-content">
-        <a href="#">Ingresar</a>
-        <a href="#">Registrarse</a>
-        <a href="#">Ajustes</a>
+        <router-link to="/login">Ingresar</router-link>
+        <router-link to="/signin">Registrarse</router-link>
+        <router-link to="/settings">Ajustes</router-link>
       </div>
     
       </div>
@@ -118,7 +118,7 @@
 input:focus {
   outline: none;
   background: #f4ffb6;
-  transition: 300ms ease;
+  transition: 300ms ease-out;
 }
 
 .nav-logo {
