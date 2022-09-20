@@ -11,9 +11,11 @@
 </template>
 
 <style scoped>
-.card-container {
+.cards-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px 0;
 }
 </style>
 
@@ -28,6 +30,10 @@ var items = [
   {
     name: "Condor Andino",
     description: "El majestuoso cóndor de los Andes",
+  },
+  {
+    name: "Pato de torrente",
+    description: "Ave emblema de el departamento de caldas",
   },
   {
     name: "Pato de torrente",

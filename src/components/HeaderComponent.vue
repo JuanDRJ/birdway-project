@@ -1,4 +1,3 @@
-
 <template>
   <nav class="main-nav">
     <div class="logo">
@@ -11,40 +10,53 @@
       </router-link>
     </div>
     <div class="nav-list">
-      <router-link class="nav-a" to="/"><span class="material-symbols-outlined">home</span><div class="nav-text">Inicio</div></router-link>
-      <router-link class="nav-a" to="/rutas"><span class="material-symbols-outlined">explore</span><div class="nav-text">Rutas</div></router-link>
-      <router-link class="nav-a" to="/guias"><span class="material-symbols-outlined">hiking</span><div class="nav-text">Guías</div></router-link>
-      <router-link class="nav-a" to="/mapa"><span class="material-symbols-outlined">travel_explore</span><div class="nav-text">Mapa Interactivo</div></router-link>
+      <router-link class="nav-a" to="/"
+        ><span class="material-symbols-outlined">home</span>
+        <div class="nav-text">Inicio</div></router-link
+      >
+      <router-link class="nav-a" to="/rutas"
+        ><span class="material-symbols-outlined">explore</span>
+        <div class="nav-text">Rutas</div></router-link
+      >
+      <router-link class="nav-a" to="/guias"
+        ><span class="material-symbols-outlined">hiking</span>
+        <div class="nav-text">Guías</div></router-link
+      >
+      <router-link class="nav-a" to="/mapa"
+        ><span class="material-symbols-outlined">travel_explore</span>
+        <div class="nav-text">Mapa Interactivo</div></router-link
+      >
     </div>
-  <!--   SEARCH -->
+    <!--   SEARCH -->
     <div class="search-container">
       <input placeholder="Buscar Rutas" class="search-bar" type="text" />
       <button>
         <span class="material-symbols-outlined"> search </span>
       </button>
     </div>
+
     <!--  DROP DOWN -->
     <div>
       <div class="dropdown">
-        <button class="dropbtn"><span class="material-symbols-outlined">expand_more</span></button>
+        <button class="dropbtn">
+          <span class="material-symbols-outlined">expand_more</span>
+        </button>
         <div class="dropdown-content">
-        <router-link to="/login">Ingresar</router-link>
-        <router-link to="/signin">Registrarse</router-link>
-        <router-link to="/settings">Ajustes</router-link>
+          <router-link to="/login">Ingresar</router-link>
+          <router-link to="/signin">Registrarse</router-link>
+          <router-link to="/settings">Ajustes</router-link>
+        </div>
       </div>
-    
-      </div>
+      
       <!-- SETTINGS -->
-       <router-link to="/settings">
+      <router-link to="/settings">
         <span class="material-symbols-outlined settings-icon">settings</span>
-       </router-link>
+      </router-link>
     </div>
-
   </nav>
 </template>
 
-<script>
-</script>
+<script></script>
 
 <style>
 .main-nav {
@@ -55,7 +67,8 @@
   align-items: center;
   height: 4em;
   color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 
 .logo {
@@ -72,12 +85,10 @@
   margin: auto;
   margin-left: 10px;
   padding: 2px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-right: #f3f3f3 1px solid;
-  border-left: #f3f3f3 1px solid;
 }
 
 .nav-a:visited {
@@ -90,8 +101,6 @@
   color: #fff;
   box-shadow: inset 300px 0 0 0 #21882d;
 }
-
-
 
 .search-container {
   display: flex;
@@ -153,7 +162,7 @@ input:focus {
 /* DROP DOWN STYLE */
 .dropbtn {
   background: white;
-  color: #4CAF50;
+  color: #4caf50;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -170,7 +179,7 @@ input:focus {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -181,7 +190,9 @@ input:focus {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -191,20 +202,22 @@ input:focus {
   background-color: #ffffff;
 }
 
-.settings-icon{
-  color:#5f5f5f;
+.settings-icon {
+  color: #5f5f5f;
 }
 
-.settings-icon:hover{
-  color:#25aa58;
+.settings-icon:hover {
+  color: #25aa58;
   transition: 300ms ease;
 }
 
-@media screen and (max-width:650px){
-  .nav-text{
-    display:none;
+.avatar{
+  color: #2c2c2c;
+  font-size: 30pxx  ;
+}
+@media screen and (max-width: 650px) {
+  .nav-text {
+    display: none;
   }
 }
 </style>
-
-
