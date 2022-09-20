@@ -10,12 +10,16 @@
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .cards-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin: 10px 0;
+}
+
+.bird-card{
+  background: rgb(229, 229, 229);
 }
 </style>
 

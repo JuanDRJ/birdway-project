@@ -20,6 +20,7 @@
   border-radius: 20px;
   display: flex;
   flex-direction: column;
+
   .img-container {
     img {
       width: 100%;

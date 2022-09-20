@@ -5,7 +5,7 @@
 </template>
 
 
-<style scoped>
+<style scoped lang="scss">
     .main-settings{
         background-color: cornflowerblue;
         height: 600px;
