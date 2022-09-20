@@ -35,9 +35,9 @@
     
       </div>
       <!-- SETTINGS -->
-       <a href="#">
+       <router-link to="/settings">
         <span class="material-symbols-outlined settings-icon">settings</span>
-       </a>
+       </router-link>
     </div>
 
   </nav>
