@@ -67,7 +67,7 @@
   justify-content: space-evenly;
   align-items: center;
   height: 4em;
-  color: #fff;
+  color:  $white;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
     rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
@@ -123,6 +123,7 @@
   border-radius: 15px;
   border-bottom: #1e392a;
   margin-left: 10px;
+  background-color: $white ;
 }
 
 input:focus {
@@ -141,7 +142,7 @@ input:focus {
 .search-container button {
   height: 4em;
   margin-left: 5px;
-  background: #ffffff;
+  background:  $white;
   color: rgb(82, 82, 82);
   width: 100px;
   border: none;

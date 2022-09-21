@@ -9,7 +9,7 @@
           inventore excepturi omnis in eveniet, dicta commodi harum optio ut
           blanditiis eaque ex.
         </p>
-        <img src="../../assets/icons/forma-de-pajaro-anis.png" alt="">
+        <img src="../../assets/icons/forma-de-pajaro-anis.png" alt="" />
       </div>
       <div>
         <img src="../../assets/stock-images/black-bird-watcher.jpg" alt="" />
@@ -21,28 +21,28 @@
 <style lang="scss" scoped>
 @import "../../assets/style.scss";
 .home_about__container {
+    
   display: flex;
   padding: 50px;
-  background-color: $light-gray ;
+  background-color: $light-gray;
   animation-name: fade;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
-.info{
-    padding: 40px;
-    h1{
-        text-align: center;
-        color: $main-color;
-        font-family: 'Bree serif', serif;
-    }
-    p{
-        text-align: justify;
-        font-size: 20px;
-        margin-top: 30px;
-    }
-    img{
-        width: 100px;
-    }
-
+.info {
+  padding: 40px;
+  h1 {
+    text-align: center;
+    color: $main-color;
+    font-family: "Bree serif", serif;
+  }
+  p {
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  img {
+    width: 100px;
+  }
 }
 @keyframes fade {
   0% {
