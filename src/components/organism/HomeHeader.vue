@@ -1,7 +1,8 @@
 <template>
     <div class="home-header">
-        <h1>Bienvenido a Birdway</h1>
-        <p>Miles de rutas para encontrar millones de aves</p>
+        <!-- <h1>Bienvenido a Birdway</h1>
+        <p>Miles de rutas para encontrar millones de aves</p> -->
+        <img src="../../assets/map/home- banner-white.png" alt="banner-birdway" class="main-icon">
     </div>
 </template>
 
@@ -10,16 +11,32 @@
     @import '../../assets/style.scss';
     .home-header{
         
-        background-color: $main-color;
+        background-image: url('../../assets/map/background-blue.png');
+        background-size: cover;
         height: 500px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        animation-name: fade;
+        animation-duration: 1s;
         h1{
             color: white;
             text-align: center;
         }
+        .main-icon{
+            width: 600px;
+            animation-name: fade1;
+            animation-duration: 2s;
+        }
+        @keyframes fade1 {
+        0%   {opacity: 0.1;}
+        100% {opacity: 1}
+        }
+        @keyframes fade {
+        0%   {opacity: 0.1;}
+        100% {opacity: 1}
+}
     }
 
 </style>
