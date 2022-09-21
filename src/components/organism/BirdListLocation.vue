@@ -2,11 +2,9 @@
     <div>
         <table>
             <tbody>
-                <tr>
-                    <td>tabla</td>
-                    <td>tabla</td>
-                    <td>tabla</td>
-                    <td>tabla</td>
+                <tr v-for="todo in todos" :key="todo.id">
+                    <td>{{todo.id}}</td>
+                    <td>{{todo.title}}</td>
                 </tr>
             </tbody>
         </table>
@@ -33,11 +31,12 @@
         },
         methods:{
             getTodos(){
-                console.log('Hola vue desde methods')
+                /* console.log('Hola vue desde methods') */
                 axios
-                 .get('https://catfact.ninja/fact')
+                 .get('https://jsonplaceholder.typicode.com/posts')
                  .then(response =>{
-                    console.log(response)
+                    /* console.log(response)   */ 
+                    this.todos = response.data
                  })
                  .catch (e=> console.log(e))
             }
