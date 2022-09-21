@@ -7,8 +7,10 @@
 
 
 <style lang="scss" scoped>
+    @import '../../assets/style.scss';
     .home-header{
-        background-color:rgb(114, 114, 158);
+        
+        background-color: $main-color;
         height: 500px;
         display: flex;
         align-items: center;

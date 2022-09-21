@@ -13,8 +13,9 @@
 </template>
 
 <style lang="scss" scoped>
+  
 .bird-card {
-  background-color: rgb(236, 236, 236);
+  background-color: gray;
   width: 320px;
   height: 320px;
   border-radius: 20px;
@@ -34,7 +35,7 @@
   }
   h2{
     text-align: left;
-    margin: 2px 8px;
+    margin: 2px 5px;
   }
 }
 </style>

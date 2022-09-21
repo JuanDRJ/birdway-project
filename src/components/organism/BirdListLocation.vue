@@ -31,11 +31,11 @@
         },
         methods:{
             getTodos(){
-                /* console.log('Hola vue desde methods') */
+                console.log('Hola vue desde methods')
                 axios
                  .get('https://jsonplaceholder.typicode.com/posts')
                  .then(response =>{
-                    /* console.log(response)   */ 
+                    console.log(response)
                     this.todos = response.data
                  })
                  .catch (e=> console.log(e))
@@ -43,4 +43,5 @@
         }
     
     }
+
 </script>
