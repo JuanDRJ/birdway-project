@@ -58,9 +58,10 @@
 
 <script></script>
 
-<style>
+<style lang="scss" scoped>
+  @import '../assets/style.scss';
 .main-nav {
-  background-color: #ffffff;
+  background-color: $white;
   display: flex;
   gap: 20px;
   justify-content: space-evenly;
@@ -81,7 +82,7 @@
 }
 .nav-a {
   text-decoration: none;
-  color: #21882d;
+  color: $main-color;
   margin: auto;
   margin-left: 10px;
   padding: 2px;
@@ -92,19 +93,19 @@
 }
 
 .nav-a:visited {
-  color: #21882d;
+  color: $main-color;
 }
 
 .nav-a:hover {
   /* color: #f7ce40; */
   transition: 600ms ease-out;
-  color: #fff;
-  box-shadow: inset 300px 0 0 0 #21882d;
+  color: $white;
+  box-shadow: inset 300px 0 0 0$main-color;
 }
 
 .search-container {
   display: flex;
-  background: #ffffff;
+  background: $white;
   width: 300px;
   height: 4em;
   align-items: center;
@@ -148,8 +149,8 @@ input:focus {
 }
 .search-container button:hover {
   /*  height: 4em; */
-  background: #24995e;
-  color: white;
+  background: $main-color;
+  color: $white;
 
   width: 100px;
   transition: 300ms ease;
@@ -161,8 +162,8 @@ input:focus {
 } */
 /* DROP DOWN STYLE */
 .dropbtn {
-  background: white;
-  color: #4caf50;
+  background: $white;
+  color: $main-color;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -177,7 +178,7 @@ input:focus {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: $white;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -191,7 +192,7 @@ input:focus {
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+  background-color: $white;
 }
 
 .dropdown:hover .dropdown-content {
@@ -199,7 +200,7 @@ input:focus {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #ffffff;
+  background-color: $white;
 }
 
 .settings-icon {
@@ -207,7 +208,7 @@ input:focus {
 }
 
 .settings-icon:hover {
-  color: #25aa58;
+  color: $main-color;
   transition: 300ms ease;
 }
 
