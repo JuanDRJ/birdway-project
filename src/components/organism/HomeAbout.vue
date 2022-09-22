@@ -96,6 +96,7 @@
   background-size: 20px 20px;
   h1 {
     color: $white;
+    text-shadow: 2px 2px 8px #1dff15;
   }
   img {
     display: none;
@@ -104,6 +105,7 @@
     display: flex;
     transition: 500ms ease;
     border: $white 5px solid;
+    box-shadow: rgba(69, 240, 46, 0.4) -5px 5px, rgba(101, 240, 46, 0.3) -10px 10px, rgba(50, 255, 22, 0.2) -15px 15px, rgba(111, 255, 8, 0.1) -20px 20px, rgba(92, 255, 109, 0.05) -25px 25px;
   }
 }
 </style>
