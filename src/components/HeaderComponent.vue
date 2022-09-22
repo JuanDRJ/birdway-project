@@ -47,7 +47,7 @@
           <router-link to="/settings">Ajustes</router-link>
         </div>
       </div>
-      
+
       <!-- SETTINGS -->
       <router-link to="/settings">
         <span class="material-symbols-outlined settings-icon">settings</span>
@@ -59,7 +59,7 @@
 <script></script>
 
 <style lang="scss" scoped>
-  @import '../assets/style.scss';
+@import "../assets/style.scss";
 .main-nav {
   background-color: $white;
   display: flex;
@@ -67,7 +67,7 @@
   justify-content: space-evenly;
   align-items: center;
   height: 4em;
-  color:  $white;
+  color: $white;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
     rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
@@ -124,7 +124,7 @@
   border-radius: 15px;
   border-bottom: #1e392a;
   margin-left: 10px;
-  background-color: $white ;
+  background-color: $white;
 }
 
 input:focus {
@@ -143,7 +143,7 @@ input:focus {
 .search-container button {
   height: 4em;
   margin-left: 5px;
-  background:  $white;
+  background: $white;
   color: rgb(82, 82, 82);
   width: 100px;
   border: none;
@@ -214,9 +214,9 @@ input:focus {
   transition: 300ms ease;
 }
 
-.avatar{
+.avatar {
   color: #2c2c2c;
-  font-size: 30pxx  ;
+  font-size: 30pxx;
 }
 @media screen and (max-width: 650px) {
   .nav-text {

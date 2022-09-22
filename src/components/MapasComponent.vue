@@ -1,5 +1,3 @@
 <template>
-    <h1>
-        mapas component
-    </h1>
+  <h1>mapas component</h1>
 </template>

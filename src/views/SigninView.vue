@@ -1,7 +1,7 @@
 <template>
-    <SigninComponent></SigninComponent>
+  <SigninComponent></SigninComponent>
 </template>
 
 <script setup>
-    import SigninComponent from '../components/SigninComponent.vue';
+import SigninComponent from "../components/SigninComponent.vue";
 </script>

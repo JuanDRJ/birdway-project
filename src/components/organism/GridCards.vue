@@ -1,12 +1,13 @@
 <template>
   <div class="cards-container">
-    <BirdCard v-for="item in items" 
-     :key="item.id"
-     bird-name="nombre del ave" 
-     bird-img="https://birdsofcolombia.com/images/editor-content/804a0f11051f476ddc7b8299952965d4_multicoloredtanager.jpg"
-     bird-description="Esta es la descripcion del ave" 
-     class="bird-card"
-      />
+    <BirdCard
+      v-for="item in items"
+      :key="item.id"
+      bird-name="nombre del ave"
+      bird-img="https://birdsofcolombia.com/images/editor-content/804a0f11051f476ddc7b8299952965d4_multicoloredtanager.jpg"
+      bird-description="Esta es la descripcion del ave"
+      class="bird-card"
+    />
   </div>
 </template>
 
@@ -18,7 +19,7 @@
   margin: 10px 0;
 }
 
-.bird-card{
+.bird-card {
   background: rgb(229, 229, 229);
 }
 </style>
