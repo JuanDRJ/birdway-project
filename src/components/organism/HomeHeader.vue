@@ -30,6 +30,13 @@
     width: 600px;
     animation-name: fade1;
     animation-duration: 2s;
+    transition: 500ms ease;
+  }
+  .main-icon:hover{
+    width: 650px;
+    transition: 1000ms ease-in-out;
+    transform: rotate(360deg);
+    
   }
   @keyframes fade1 {
     0% {

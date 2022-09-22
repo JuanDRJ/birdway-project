@@ -11,7 +11,11 @@
         </p>
       </div>
       <div>
-        <img class="img1" src="../../assets/stock-images/black-bird-watcher.jpg" alt="" />
+        <img
+          class="img1"
+          src="../../assets/stock-images/black-bird-watcher.jpg"
+          alt=""
+        />
         <img class="img2" src="../../assets/stock-images/trogon.jpg" alt="" />
       </div>
     </div>
@@ -21,7 +25,6 @@
 <style lang="scss" scoped>
 @import "../../assets/style.scss";
 .home_about__container {
-  
   display: flex;
   justify-content: center;
   padding: 50px;
@@ -68,36 +71,41 @@
   width: 85%;
   border-bottom: 10px $main-color solid;
   transition: 0.5s;
+  background-blend-mode:multiply;
   img {
     border-radius: 20px;
     width: 80%;
     position: relative;
     left: 50px;
   }
-  .img2{
+  .img2 {
     display: none;
   }
 }
 
-.home_about__container___background:hover{
+.home_about__container___background:hover {
   position: relative;
   border-bottom: 30px solid $main-color;
   margin-bottom: 20px;
   padding: 0px;
   background: $main-color;
   color: $white;
-  h1{
+  background-color: #21882d;
+  opacity: 0.9;
+  background-image: radial-gradient(#6bae75 1px, #21882d 1px);
+  background-size: 20px 20px;
+  h1 {
     color: $white;
   }
-  img{
-    display:none;
+  img {
+    display: none;
   }
-  .img2{
+  .img2 {
     display: flex;
     transition: 500ms ease;
+    border: $white 5px solid;
   }
 }
-
 </style>
 
 <script setup></script>
