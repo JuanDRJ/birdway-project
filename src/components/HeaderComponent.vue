@@ -90,6 +90,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: 0.8s;
 }
 
 .nav-a:visited {

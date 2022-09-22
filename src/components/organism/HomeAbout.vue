@@ -9,10 +9,10 @@
           inventore excepturi omnis in eveniet, dicta commodi harum optio ut
           blanditiis eaque ex.
         </p>
-        <img src="../../assets/icons/forma-de-pajaro-anis.png" alt="" />
       </div>
       <div>
-        <img src="../../assets/stock-images/black-bird-watcher.jpg" alt="" />
+        <img class="img1" src="../../assets/stock-images/black-bird-watcher.jpg" alt="" />
+        <img class="img2" src="../../assets/stock-images/trogon.jpg" alt="" />
       </div>
     </div>
   </div>
@@ -21,24 +21,30 @@
 <style lang="scss" scoped>
 @import "../../assets/style.scss";
 .home_about__container {
-    
+  
   display: flex;
+  justify-content: center;
   padding: 50px;
   background-color: $light-gray;
   animation-name: fade;
   animation-duration: 1s;
+  background-image: url(../../assets/map/tophograpic.png);
+  background-size: cover;
 }
 .info {
-  padding: 40px;
+  padding: 35px;
+  width: 40%;
   h1 {
     text-align: center;
     color: $main-color;
     font-family: "Bree serif", serif;
+    margin-left: 45px;
   }
   p {
     text-align: justify;
     font-size: 20px;
     margin-top: 30px;
+    margin-left: 50px;
   }
   img {
     width: 100px;
@@ -55,12 +61,43 @@
 .home_about__container___background {
   background-color: $white;
   display: flex;
-  border-radius: 10px;
+  border-radius: 30px;
   box-shadow: $box-shadow;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 85%;
+  border-bottom: 10px $main-color solid;
+  transition: 0.5s;
   img {
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 20px;
+    width: 80%;
+    position: relative;
+    left: 50px;
+  }
+  .img2{
+    display: none;
   }
 }
+
+.home_about__container___background:hover{
+  position: relative;
+  border-bottom: 30px solid $main-color;
+  margin-bottom: 20px;
+  padding: 0px;
+  background: $main-color;
+  color: $white;
+  h1{
+    color: $white;
+  }
+  img{
+    display:none;
+  }
+  .img2{
+    display: flex;
+    transition: 500ms ease;
+  }
+}
+
 </style>
 
 <script setup></script>
