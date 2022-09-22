@@ -20,7 +20,7 @@
        data(){
            return{
                todos:null,
-               regionCode: 'CO-CAL'
+               /* regionCode: 'CO-CAL' */
            }
        },
        mounted(){
@@ -29,10 +29,10 @@
        },
        methods:{
            getTodos(){
-               let code = this.regionCode;
+               /* let code = this.regionCode; */
                console.log('Hola vue desde methods')
                axios
-                .get(`https://api.ebird.org/v2/data/obs/${{code}}/recent`,{
+                .get(`https://api.ebird.org/v2/data/obs/CO-CAL/recent`,{
                 headers: {  'X-eBirdApiToken' : '33ig95hlu56o'
                 }
             
@@ -47,3 +47,4 @@
 
    }
 </script>
+
