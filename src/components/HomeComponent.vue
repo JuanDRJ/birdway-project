@@ -5,9 +5,9 @@
         <SecondaryButton inner-text="My secondary"/> -->
 
     <!-- <BirdCard/> -->
-    <HomeHeader></HomeHeader>
-    <HomeAbout></HomeAbout>
-    <GridCards />
+    <HomeHeader/>
+    <HomeAbout/>
+    <GridCards/>
   </div>
 </template>
 
