@@ -7,6 +7,7 @@
     <!-- <BirdCard/> -->
     <HomeHeader/>
     <HomeAbout/>
+    <HomeSlider></HomeSlider>
     <GridCards/>
   </div>
 </template>
@@ -20,4 +21,5 @@ import BirdCard from "./molecules/cards/BirdCard.vue";
 import GridCards from "./organism/GridCards.vue";
 import HomeHeader from "./organism/HomeHeader.vue";
 import HomeAbout from "./organism/HomeAbout.vue";
+import HomeSlider from "./organism/HomeSlider.vue";
 </script>

@@ -6,7 +6,7 @@ import RutasView from '../views/RutasView.vue';
 import MapasView from  '../views/MapasView.vue';
 import GuiasView from '../views/GuiasView.vue';
 import LoginView from '../views/LoginView.vue';
-import SigninView from '../views/SigninView.vue';
+import ProfileView from '../views/ProfileView.vue';
 import SettingsView from '../views/SettingsView.vue';
 /* import App from '../App.vue'; */
 
@@ -30,9 +30,9 @@ const routes = [
   { path: '/login',
     name: LoginView, 
     component: LoginView},
-  { path: '/signin',
-    name: SigninView, 
-    component: SigninView},
+  { path: '/profile',
+    name: ProfileView, 
+    component: ProfileView},
   { path: '/settings',
     name: SettingsView, 
     component: SettingsView},

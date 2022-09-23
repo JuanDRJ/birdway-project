@@ -43,7 +43,7 @@
         </button>
         <div class="dropdown-content">
           <router-link to="/login">Ingresar</router-link>
-          <router-link to="/signin">Registrarse</router-link>
+          <router-link to="/profile">Mi perfil</router-link>
           <router-link to="/settings">Ajustes</router-link>
         </div>
       </div>
