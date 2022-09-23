@@ -4,7 +4,7 @@
       <!-- <h1>Bienvenido a Birdway</h1>
           <p>Miles de rutas para encontrar millones de aves</p> -->
       <img
-        src="../../assets/map/home- banner-white.png"
+        src="../../assets/map/home-banner-white.png"
         alt="banner-birdway"
         class="main-icon"
       />
