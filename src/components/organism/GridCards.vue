@@ -12,15 +12,24 @@
 </template>
 
 <style scoped lang="scss">
+  @import '../../assets/style.scss';
 .cards-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin: 10px 0;
+  transition: 300ms ease-out;
+  border-radius: 20px;
+  :hover{
+    background-color: $main-color;
+    transition: 300ms ease-out;
+    color:$white;
+}
 }
 
 .bird-card {
   background: rgb(229, 229, 229);
+ 
 }
 </style>
 

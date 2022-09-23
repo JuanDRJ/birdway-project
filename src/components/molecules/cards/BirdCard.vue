@@ -9,6 +9,7 @@
 </template>
 
 <style lang="scss" scoped>
+  @import '../../../assets/style.scss';
 .bird-card {
   background-color: gray;
   width: 320px;
@@ -16,12 +17,20 @@
   border-radius: 20px;
   display: flex;
   flex-direction: column;
+  box-shadow: $box-shadow;
+  :hover{
+    
+    transition: 300ms ease-in-out ;
+  }
 
   .img-container {
     img {
       width: 100%;
       padding: 5px;
       border-radius: 20px;
+      :hover{
+      border: 1px $white dotted;
+      }
     }
   }
   p {
@@ -32,6 +41,7 @@
     text-align: left;
     margin: 2px 5px;
   }
+  
 }
 </style>
 
