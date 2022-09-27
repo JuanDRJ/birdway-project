@@ -3,7 +3,7 @@
     <table>
       <tbody>
         <tr v-for="todo in todos" :key="todo.id">
-          <td>{{ todo.id }}</td>
+          <td>{{ todo.codName }}</td>
           <td>{{ todo.title }}</td>
         </tr>
       </tbody>
@@ -46,5 +46,6 @@
        }
 
    }
+   console.log(todos)
 </script>
 
