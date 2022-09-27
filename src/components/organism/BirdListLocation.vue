@@ -14,7 +14,7 @@
 <style lang="scss" scoped></style>
 
 <script>
-   import axios from 'axios'
+import axios from "axios";
 
    export default{
        data(){
@@ -48,4 +48,3 @@
    }
    console.log(todos)
 </script>
-

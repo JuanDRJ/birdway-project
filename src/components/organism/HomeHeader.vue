@@ -1,19 +1,28 @@
 <template>
-  <div class="home-header">
-    <!-- <h1>Bienvenido a Birdway</h1>
-        <p>Miles de rutas para encontrar millones de aves</p> -->
-    <img
-      src="../../assets/map/home- banner-white.png"
-      alt="banner-birdway"
-      class="main-icon"
-    />
+  <div class="background">
+    <div class="home-header">
+      <!-- <h1>Bienvenido a Birdway</h1>
+          <p>Miles de rutas para encontrar millones de aves</p> -->
+      <img
+        src="../../assets/map/home-banner-white.png"
+        alt="banner-birdway"
+        class="main-icon"
+      />
+    </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
 @import "../../assets/style.scss";
-.home-header {
+
+.background{
   background-image: url("../../assets/map/background-blue.png");
+  background-size: cover;
+}
+.home-header {
+  /* background-image: url("../../assets/map/background-blue.png"); */
+  background-image: linear-gradient(rgba(255,0,0,0),rgba(39, 86, 218,10));
+  background-blend-mode:lighten;
   background-size: cover;
   height: 500px;
   display: flex;
@@ -29,14 +38,12 @@
   .main-icon {
     width: 600px;
     animation-name: fade1;
-    animation-duration: 2s;
-    transition: 500ms ease;
+    animation-duration: 1s;
+    transition: 300ms ease;
   }
-  .main-icon:hover{
-    width: 650px;
-    transition: 1000ms ease-in-out;
-    transform: rotate(360deg);
-    
+  .main-icon:hover {
+    width: 620px;
+    transition: 300ms ease-in-out;
   }
   @keyframes fade1 {
     0% {

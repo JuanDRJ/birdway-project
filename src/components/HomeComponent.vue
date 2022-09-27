@@ -1,27 +1,25 @@
-
 <template>
-      <div>
-        <!-- <p>Home component</p>
+  <div>
+    <!-- <p>Home component</p>
         <MainButton inner-text="Main buton"/>
         <SecondaryButton inner-text="My secondary"/> -->
 
-        <!-- <BirdCard/> -->
-        <HomeHeader></HomeHeader>
-        <HomeAbout></HomeAbout>
-        <GridCards/>
-      </div>
+    <!-- <BirdCard/> -->
+    <HomeHeader/>
+    <HomeAbout/>
+    <HomeSlider></HomeSlider>
+    <GridCards/>
+  </div>
 </template>
 
-<style scoped>
- 
-</style>
+<style scoped></style>
 
 <script setup>
-  import MainButton from './atoms/buttons/MainButton.vue';
-  import SecondaryButton from './atoms/buttons/SecondaryButton.vue';
-  import BirdCard from './molecules/cards/BirdCard.vue'
-  import GridCards from './organism/GridCards.vue';
-  import HomeHeader from './organism/HomeHeader.vue';
-  import HomeAbout from './organism/HomeAbout.vue';
+import MainButton from "./atoms/buttons/MainButton.vue";
+import SecondaryButton from "./atoms/buttons/SecondaryButton.vue";
+import BirdCard from "./molecules/cards/BirdCard.vue";
+import GridCards from "./organism/GridCards.vue";
+import HomeHeader from "./organism/HomeHeader.vue";
+import HomeAbout from "./organism/HomeAbout.vue";
+import HomeSlider from "./organism/HomeSlider.vue";
 </script>
-    

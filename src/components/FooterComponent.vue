@@ -5,12 +5,11 @@
             <p>holaaaaaa</p>
         </footer> -->
     <div class="footer">
-      <div id="button">	&#11165;</div>
+      <div id="button">&#11165;</div>
       <div id="container">
         <div id="cont">
           <div class="footer_center">
             <h3>Creado por: Juan David Ramírez</h3>
-            
           </div>
         </div>
       </div>
@@ -39,7 +38,7 @@ section {
   height: 30px;
   font-size: 60px;
   text-align: center;
-  color: #88D318;
+  color: #88d318;
   margin-left: 20px;
   /* border: #1b8a20 12px solid;
   border-radius: 50px; */
@@ -65,7 +64,7 @@ section {
   -ms-transition: all 1s ease;
   transition: all 1s ease;
   position: relative;
-  text-shadow:  2px 2px;
+  text-shadow: 2px 2px;
 }
 
 .footer {

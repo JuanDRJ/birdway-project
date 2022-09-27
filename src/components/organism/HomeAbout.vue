@@ -71,7 +71,7 @@
   width: 85%;
   border-bottom: 10px $main-color solid;
   transition: 0.5s;
-  background-blend-mode:multiply;
+  background-blend-mode: multiply;
   img {
     border-radius: 20px;
     width: 80%;
@@ -105,7 +105,9 @@
     display: flex;
     transition: 500ms ease;
     border: $white 5px solid;
-    box-shadow: rgba(69, 240, 46, 0.4) -5px 5px, rgba(101, 240, 46, 0.3) -10px 10px, rgba(50, 255, 22, 0.2) -15px 15px, rgba(111, 255, 8, 0.1) -20px 20px, rgba(92, 255, 109, 0.05) -25px 25px;
+    box-shadow: rgba(69, 240, 46, 0.4) -5px 5px,
+      rgba(101, 240, 46, 0.3) -10px 10px, rgba(50, 255, 22, 0.2) -15px 15px,
+      rgba(111, 255, 8, 0.1) -20px 20px, rgba(92, 255, 109, 0.05) -25px 25px;
   }
 }
 </style>
