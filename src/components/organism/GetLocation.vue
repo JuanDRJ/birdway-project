@@ -1,6 +1,14 @@
 <template>
   <div>
-    <p>{{latitude}} & {{ longitude }}</p>
+    <select v-model="ruta">
+      <option value="www.manizales.com">option 1</option>
+      <option value="www.villamaria.com">option 2</option>
+      <option value="ww.chinchina.com">option 3</option>
+    </select>
+
+    <input v-model="nombre" type="text">
+
+    <h1>{{ruta}}</h1>
   </div>
 </template>
 
@@ -10,6 +18,8 @@ export default {
     return {
       latitude: "hola",
       longitude: "longitude",
+      ruta: 'string',
+      nombre: 'string'
     };
   },
   mounted() {
@@ -32,7 +42,8 @@ export default {
   methods:{
     printLocation(){
 
-    }
+    },
+
   }
 };
 </script>

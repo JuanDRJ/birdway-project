@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <h1>guias view</h1>
+  <div class="main-div">
     <GuiasComponent></GuiasComponent>
   </div>
 </template>
@@ -16,3 +15,9 @@ export default defineComponent({
   },
 });
 </script>
+<style lang="scss" scoped>
+  @import '../assets/style.scss';
+  .main-div{
+    background-color: $blue;
+  }
+</style>
