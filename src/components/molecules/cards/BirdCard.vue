@@ -11,7 +11,7 @@
 <style lang="scss" scoped>
   @import '../../../assets/style.scss';
 .bird-card {
-  background-color: gray;
+  background-color:$light-gray;
   width: 320px;
   height: 320px;
   border-radius: 20px;

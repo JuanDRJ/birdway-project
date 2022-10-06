@@ -1,25 +1,28 @@
 
 <template>
-   <div>
-      <div class="banner">
-         <div class="img">
-             <img :src="guideImg" alt="">
-         </div>
-         <div>
-             <h3 class="title">{{guideName}}</h3>
-             <p class="location"> {{guideLocation}}</p>
-             <p class="description">"{{guideDescription}}"</p>
-         </div>
-         
-    
+     <div>
+         <div class="banner">
+           <div class="title-card">
+             <div class="img">
+                 <img :src="guideImg" alt="">
+             </div>
+             <div>
+                 <h3 class="title">{{guideName}}</h3>
+                 <p class="location"> {{guideLocation}}</p>
+                 <span class="english">{{guideEnglish}}</span> <span class="routes"> + de {{guideRoutes}} rutas</span>
+                 
+             </div>
+           </div>
+           <hr>
+           <div><p class="description">"{{guideDescription}}"</p></div>
+            
+        
+        </div>
      </div>
-   </div>
 </template>
 <style lang="scss" scoped>
  @import '../../assets/style.scss';
-.img{
-    border-radius: 50%;
-    
+.img{ 
     width: 100px;
     height: 100px;
     object-fit: contain;
@@ -28,22 +31,72 @@
 }
 
 .img img{
-    border-radius: 50%;
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border: 5px $main-color solid;
+    border-radius: 5px;
 }
 
 .banner{
     display: flex;
+    flex-direction: column;
     background: $white;
     padding: 10px;
-    width: 500px;
+    width: 360px;
     height: 240px;
     border-radius: 20px;
     margin:5px;
+    box-shadow: $box-shadow;
+    /* From https://css.glass */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.78);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.9px);
+    -webkit-backdrop-filter: blur(6.9px);
+    border: 1px solid rgba(255, 255, 255, 0.35);
 
+}
+
+.title-card{
+    display: flex;
+    border-radius: 30px;
+}
+
+.title{
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+.location{
+    margin: 0px;
+    text-align: left;
+    margin-left: 10px;
+}
+.english{
+    background-color: $blue;
+    color: $white;
+    padding: 3px;
+    font-size: 12px;
+    border-radius: 30px;
+}
+
+.routes{
+    background-color: $main-color;
+    color: $white;
+    padding: 3px;
+    font-size: 12px;
+    border-radius: 30px;
+    margin-left: 3px;
+}
+
+.description{
+    padding: 0px;
+}
+hr{
+    padding: 0px;
+    margin-top: 8px;
 }
 </style>
 <script setup>
@@ -52,6 +105,9 @@ const props = defineProps({
   guideDescription: String,
   guideImg: String,
   guideLocation: String,
+  guideLink: String,
+  guideEnglish: String,
+  guideRoutes: String,
 });
 </script>
 

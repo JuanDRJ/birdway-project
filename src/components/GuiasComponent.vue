@@ -1,8 +1,10 @@
 <template>
- <div>
-   <h1>Selecciona el guía para iniciar tu aventura</h1>
+ <div class="main-container" >
+   <div class="header">
+      <h1>Selecciona el guía para iniciar tu aventura</h1>
+   </div>
     <div class="guides-container">
-      <GuideList class="guide-banner" guide-name="Felipe Cardona" guide-location="Pensilvania Caldas" guide-description="Soy apasionado por la observación de aves y la educación ambiental, llevo 5 años pajareando y 10 años trabajé en pro de la conservación de áreas protegidas." guide-img="#"/>
+         <GuideList class="guide-banner" guide-name="Felipe Cardona" guide-location="Pensilvania Caldas" guide-english="Inglés Básico" guide-routes="5" guide-description="Soy apasionado por la observación de aves y la educación ambiental, llevo 5 años pajareando y 10 años trabajé en pro de la conservación de áreas protegidas." guide-img="https://st.depositphotos.com/2069237/2231/i/600/depositphotos_22312937-stock-photo-hiker-man-hiking-in-forest.jpg"/>
       
       <GuideList class="guide-banner" guide-name="Pablo César Calderón" guide-location="Manizales Caldas" guide-description="Guai de naturaleza con conocimiento en alta montaña y aves, disfruto descubriendo nuevos  territorios y admirando las aves como herramienta para la transformación social y espiritual. " guide-img="#"/>
       
@@ -39,16 +41,36 @@ import GuideList from './organism/GuideList.vue';
 
 </script>
 <style lang="scss" scoped>
+   @import '../assets/style.scss';
+
+   .header{
+      height: 20%;
+      padding: 40px;
+      text-align: center;
+      color: $white;
+   }
 .guides-container{
   display: grid;
-  grid-template-columns: auto auto;
-  background-color: #2196F3;
-  padding: 5px;
+  grid-template-columns: auto auto auto;
   justify-items: center;
+ 
+ 
 }
 .guide-banner{
  /*  border: 1px solid rgba(0, 0, 0, 0.8); */
   padding: 0px;
   text-align: center;
+  transition: 300ms ease-out;
+ 
+
 }
+
+
+.main-container{
+   background-image: url('../assets/map/bgmountains.jpg');
+   background-size: cover;
+   background-blend-mode: color-dodge;
+}
+
+
 </style>
