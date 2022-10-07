@@ -643,6 +643,26 @@ h1{
     'GRAD' 0,
     'opsz' 48
 }
-
-
 </style>
+
+<script>
+   export default {
+  data() {
+    return {
+      latitude: "hola",
+      longitude: "longitude",
+      ruta: 'string',
+      nombre: 'string'
+    };
+  },
+  mounted() {
+
+  },
+  methods:{
+    printLocation(){
+
+    },
+
+  }
+}; 
+</script>

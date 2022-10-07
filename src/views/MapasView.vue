@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>mapas view</h1>
     <MapasComponent></MapasComponent>
   </div>
 </template>

@@ -1,11 +1,12 @@
 <template>
   <div>
-    <GetLocation></GetLocation>
+    <!-- <GetLocation></GetLocation> -->
     <MapaCaldas></MapaCaldas>
-    <h1>mapas component</h1>
+    <MapaColombia></MapaColombia>
   </div>
 </template>
 
 <script setup>
 import GetLocation from './organism/GetLocation.vue';
-import MapaCaldas from './organism/MapaCaldas.vue';</script>
+import MapaCaldas from './organism/MapaCaldas.vue';
+import MapaColombia from './organism/MapaColombia.vue';</script>
