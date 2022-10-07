@@ -1,7 +1,7 @@
 <template>
  <div class="main-container" >
    <div class="header">
-      <h1>Selecciona el guía para iniciar tu aventura</h1>
+      <h1>Selecciona el guía para iniciar tu aventura</h1><span class="material-symbols-outlined">hiking</span>
    </div>
     <div class="guides-container">
          <GuideList class="guide-banner" guide-name="Felipe Cardona" guide-location="Pensilvania Caldas" guide-english="Inglés Básico" guide-routes="5" guide-description="Soy apasionado por la observación de aves y la educación ambiental, llevo 5 años pajareando y 10 años trabajé en pro de la conservación de áreas protegidas." guide-img="https://st.depositphotos.com/2069237/2231/i/600/depositphotos_22312937-stock-photo-hiker-man-hiking-in-forest.jpg"/>
@@ -28,9 +28,6 @@
 
       <GuideList class="guide-banner" guide-name="Cristian Fernandez" guide-location="Victoria Caldas" guide-description="Soy una persona proactiva y aventurera, trabajo en la parte contable y desde hace nueve años empecé en la observación de aves, en mis espacios libre trabajo con nuestra empresa Avistar Birding en el oriente caldense y magdalena medio." guide-img="#"/>
 
-
-
-   
     </div>
  </div>
 </template>
@@ -48,6 +45,12 @@ import GuideList from './organism/GuideList.vue';
       padding: 40px;
       text-align: center;
       color: $white;
+      display: flex;
+      justify-content: center;
+      span{
+         margin: 5px 0px 0px 0px;
+         font-size: 40px;
+      }
    }
 .guides-container{
   display: grid;
