@@ -4,7 +4,7 @@
       <router-link to="/">
         <img
           class="nav-logo"
-          src="../assets/brand/LOGO/darkgreen.png"
+          src="../assets/brand/LOGO/birdway-reverse.png"
           alt="logo_birdway"
         />
       </router-link>
@@ -63,7 +63,7 @@
 <style lang="scss" scoped>
 @import "../assets/style.scss";
 .main-nav {
-  background-color: $white;
+  background-color: $dark-blue;
   display: flex;
   gap: 20px;
   justify-content: space-evenly;
@@ -84,7 +84,7 @@
 }
 .nav-a {
   text-decoration: none;
-  color: $main-color;
+  color: $white;
   margin: auto;
   margin-left: 10px;
   padding: 2px;
@@ -96,7 +96,7 @@
 }
 
 .nav-a:visited {
-  color: $main-color;
+  color: $white;
 }
 
 .nav-a:hover {
@@ -108,7 +108,7 @@
 
 .search-container {
   display: flex;
-  background: $white;
+  background: $dark-blue;
   width: 300px;
   height: 4em;
   align-items: center;
@@ -141,11 +141,13 @@ input:focus {
   margin-top: 10px;
   padding: 10px;
 }
-
+.search-container{
+  color: $white;
+}
 .search-container button {
   height: 4em;
   margin-left: 5px;
-  background: $white;
+  background: $dark-blue;
   color: rgb(82, 82, 82);
   width: 100px;
   border: none;
@@ -166,7 +168,7 @@ input:focus {
 } */
 /* DROP DOWN STYLE */
 .dropbtn {
-  background: $white;
+  background: $dark-blue;
   color: $main-color;
   padding: 16px;
   font-size: 16px;
@@ -189,7 +191,7 @@ input:focus {
 }
 
 .dropdown-content a {
-  color: black;
+  color: $dark-blue;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -208,7 +210,7 @@ input:focus {
 }
 
 .settings-icon {
-  color: #5f5f5f;
+  color: $white;
 }
 
 .settings-icon:hover {

@@ -1,5 +1,8 @@
 <template>
-  <div>
+  <div class="main-footer">
+    <div>
+      <h1>Hola footer</h1>
+    </div>
     <!-- <footer>
             <p>footer</p>
             <p>holaaaaaa</p>
@@ -17,7 +20,8 @@
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+  @import '../assets/style.scss';
 /* footer {
   background-color: rgb(71, 71, 71);
   position: absolute;
@@ -26,7 +30,6 @@
   height: 40px;
   color: white;
 }
- */
 
 /* FOOTER */
 section {
@@ -100,8 +103,8 @@ section {
   position: relative;
   top: 0;
   left: 0;
-  background: rgb(241, 241, 241);
-  color: #21882d;
+  background: $dark-blue;
+  color: $white;
   border-top: 5px solid #21882d;
 }
 
@@ -121,10 +124,16 @@ section {
 }
 
 .footer h3 {
-  font-family: "Helvetica";
-  font-size: 30px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 20px;
   font-weight: 100;
   margin-top: 70px;
   margin-left: 40px;
+}
+.main-footer{
+  height: 200px;
+  background-color: $dark-gray;
+  color: $light-gray;
+  padding: 10px;
 }
 </style>

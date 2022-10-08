@@ -11,8 +11,9 @@
     <HomeHeader />
     <InfoHome></InfoHome>
     <HomeAbout />
-    
     <HomeSlider></HomeSlider>
+    <AliadosList></AliadosList>
+    <BirdGalery></BirdGalery>
 
   </div>
 </template>
@@ -29,4 +30,5 @@ import HomeAbout from "./organism/HomeAbout.vue";
 import HomeSlider from "./organism/HomeSlider.vue";
 import MainHead from "./molecules/cards/MainHead.vue";
 import InfoHome from "./molecules/cards/InfoHome.vue";
+import AliadosList from "./molecules/cards/AliadosList.vue";
 </script>

@@ -70,9 +70,8 @@ import GuideList from './organism/GuideList.vue';
 
 
 .main-container{
-   background-image: url('../assets/map/bgmountains.jpg');
    background-size: cover;
-   background-blend-mode: color-dodge;
+   background-color: $dark-blue;
 }
 
 
