@@ -1,13 +1,16 @@
 <template>
-  <div class="background">
-    <div class="home-header">
-      <!-- <h1>Bienvenido a Birdway</h1>
-          <p>Miles de rutas para encontrar millones de aves</p> -->
-      <img
-        src="../../assets/map/home-banner-white.png"
-        alt="banner-birdway"
-        class="main-icon"
-      />
+  <div>
+    <div class="background">
+      <div class="home-header">
+        <!-- <h1>Bienvenido a Birdway</h1>
+            <p>Miles de rutas para encontrar millones de aves</p> -->
+        <div>Accede a la red global de Operadores Turísticos de Aves</div>
+        <img
+          src="../../assets/map/home-banner-white.png"
+          alt="banner-birdway"
+          class="main-icon"
+        />
+      </div>
     </div>
   </div>
 </template>
@@ -15,22 +18,21 @@
 <style lang="scss" scoped>
 @import "../../assets/style.scss";
 
-.background{
-  background-image: url("../../assets/map/background-blue.png");
-  background-size: cover;
+.background {
+  background-color: $dark-blue;
+  z-index: 1;
+  
 }
 .home-header {
-  /* background-image: url("../../assets/map/background-blue.png"); */
-  background-image: linear-gradient(rgba(255,0,0,0),rgba(39, 86, 218,10));
-  background-blend-mode:lighten;
   background-size: cover;
   height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   animation-name: fade;
   animation-duration: 1s;
+
   h1 {
     color: white;
     text-align: center;
@@ -62,8 +64,14 @@
     }
   }
 }
+svg {
+  position: absolute;
+  bottom: -10px;
+  z-index: 2;
+}
 </style>
 
 <script setup>
 import BirdCard from "../molecules/cards/BirdCard.vue";
+import BirdAnimation from "../molecules/cards/BirdAnimation.vue";
 </script>

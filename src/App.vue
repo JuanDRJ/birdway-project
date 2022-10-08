@@ -33,12 +33,15 @@ import HeaderComponent from './components/HeaderComponent.vue';
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  /* font-family: 'Plus Jakarta Sans', sans-serif; */
 }
 
 body{
   width: 100vw ;
   overflow-x: hidden;
+}
+.header{
+position:sticky;
 }
 
 

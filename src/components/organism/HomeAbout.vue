@@ -28,10 +28,11 @@
   display: flex;
   justify-content: center;
   padding: 50px;
-  background-color: $light-gray;
+  background-color: $white  ;
   animation-name: fade;
   animation-duration: 1s;
-  background-image: url(../../assets/map/tophograpic.png);
+ /*  background-image: url(../../assets/map/tophograpic.png); */
+  background-blend-mode: exclusion;
   background-size: cover;
 }
 .info {
@@ -62,7 +63,7 @@
   }
 }
 .home_about__container___background {
-  background-color: $white;
+  background-color: none;
   display: flex;
   border-radius: 30px;
   box-shadow: $box-shadow;

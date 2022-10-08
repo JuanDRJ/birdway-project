@@ -5,10 +5,15 @@
         <SecondaryButton inner-text="My secondary"/> -->
 
     <!-- <BirdCard/> -->
-    <HomeHeader/>
-    <HomeAbout/>
+    
+
+    <MainHead></MainHead>
+    <HomeHeader />
+    <InfoHome></InfoHome>
+    <HomeAbout />
+    
     <HomeSlider></HomeSlider>
-    <GridCards/>
+
   </div>
 </template>
 
@@ -22,4 +27,6 @@ import GridCards from "./organism/GridCards.vue";
 import HomeHeader from "./organism/HomeHeader.vue";
 import HomeAbout from "./organism/HomeAbout.vue";
 import HomeSlider from "./organism/HomeSlider.vue";
+import MainHead from "./molecules/cards/MainHead.vue";
+import InfoHome from "./molecules/cards/InfoHome.vue";
 </script>

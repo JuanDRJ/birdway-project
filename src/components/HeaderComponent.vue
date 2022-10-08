@@ -30,9 +30,11 @@
     <!--   SEARCH -->
     <div class="search-container">
       <input placeholder="Buscar Rutas" class="search-bar" type="text" />
-      <button>
-        <span class="material-symbols-outlined"> search </span>
-      </button>
+      <router-link to="/rutas" class="lupita">
+        <button>
+          <span class="material-symbols-outlined"> search </span>
+        </button>
+      </router-link>
     </div>
 
     <!--  DROP DOWN -->
@@ -222,5 +224,9 @@ input:focus {
   .nav-text {
     display: none;
   }
+}
+
+.lupita{
+  width: 5px;
 }
 </style>
