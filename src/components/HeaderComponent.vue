@@ -32,7 +32,7 @@
       <input placeholder="Buscar Rutas" class="search-bar" type="text" />
       <router-link to="/rutas" class="lupita">
         <button>
-          <span class="material-symbols-outlined"> search </span>
+          <span class="material-symbols-outlined search-icon"> search </span>
         </button>
       </router-link>
     </div>
@@ -230,5 +230,8 @@ input:focus {
 
 .lupita{
   width: 5px;
+}
+.search-icon{
+  color:$white;
 }
 </style>

@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <h1>Mapa interactivo Birdway</h1>
     <svg
       version="1.1"
       id="svg2"
@@ -591,6 +590,7 @@ l-3.1,5.3L1750.2,4257.7z"
 </template>  
 
 <style lang="scss" scoped>
+  @import '../../assets/style.scss';
     .main-container{
     
     display: grid;
@@ -599,24 +599,25 @@ l-3.1,5.3L1750.2,4257.7z"
 }
 h1{
     text-align: center;
-    color: green;
+    color: $main-color;
 }
 
 .container {
     width: 50%;
+    background-color: $white;
     
 }
 
 .container path {
-    fill: rgb(31, 131, 12);
+    fill: $main-color;
     opacity: 60%;
-    stroke: white;
+    stroke:$white;
     stroke-width: 2px;
     transition: fill 200ms;
 }
 
 .container :hover {
-    fill: greenyellow;
+    fill: $hover-color;
     
 }
 
