@@ -13,7 +13,7 @@
           placeholder="Contraseña"
           required="true"
         />
-        <button>Sign up</button>
+        <button>Registrarse</button>
       </form>
     </div>
 
@@ -27,7 +27,7 @@
           placeholder="Contraseña"
           required="true"
         />
-        <button>Login</button>
+        <button>Ingresar</button>
       </form>
     </div>
   </div>
