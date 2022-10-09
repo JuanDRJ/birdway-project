@@ -8,25 +8,24 @@
       
       <GuideList class="guide-banner" guide-name="Pablo César Calderón" guide-location="Manizales Caldas" guide-description="Guai de naturaleza con conocimiento en alta montaña y aves, disfruto descubriendo nuevos  territorios y admirando las aves como herramienta para la transformación social y espiritual. " guide-img="#"/>
       
-      <GuideList class="guide-banner" guide-name="Cesar Augusto Agudelo" guide-location="Chinchina Caldas" guide-description="Certificado por el Sena en guianza" guide-img="#"/>
+      <GuideList class="guide-banner" guide-name="Cesar Agudelo" guide-location="Chinchina Caldas" guide-description="Certificado por el Sena en guianza" guide-img="#"/>
       
       <GuideList class="guide-banner" guide-name="Orlando Salazar García" guide-location="Chinchina Caldas" guide-description="Tengo Certificación de Avistador de Aves, por el SENA, Manizales.Experiencia en campo con mallas niebla,Y deseo contribuir con la conservación de aves y árboles nátivos.." guide-img="#"/>
 
-      <GuideList class="guide-banner" guide-name="Diana Alejandra Montes López " guide-location="Manizales Caldas" guide-description="Soy una joven que me encanta la naturaleza y dar a conocer de ella sobre todo inculcar a la comunidad estrategias en pro de la conservación " guide-img="#"/>
+      <GuideList class="guide-banner" guide-name="Diana Montes " guide-location="Manizales Caldas" guide-description="Soy una joven que me encanta la naturaleza y dar a conocer de ella sobre todo inculcar a la comunidad estrategias en pro de la conservación " guide-img="#"/>
 
       <GuideList class="guide-banner" guide-name="Julián parra" guide-location="Bahía Solano - Chocó " guide-description="Guía de aviturismo aproximadamente 8 años experto en aves presto el mejor servicio posible en esta región de bahía solano me gusta recorrer las selvas chocoanas junto con mis clientes, y descubrir nuevas especies para la región" guide-img="#"/>
 
       <GuideList class="guide-banner" guide-name="Arbey Gallego" guide-location="Chinchina caldas" guide-description="Soy amante de la naturaleza, me gusta mucho enseñar mi poco conocimiento , conocer muchos sitios donde tenga muchas aves para avistar" guide-img="#"/>
 
-      <GuideList class="guide-banner" guide-name="Arbey Gallego" guide-location="Chinchina caldas" guide-description="Soy amante de la naturaleza, me gusta mucho enseñar mi poco conocimiento , conocer muchos sitios donde tenga muchas aves para avistar" guide-img="#"/>
 
-      <GuideList class="guide-banner" guide-name="Edison Javier Cañon" guide-location="Victoria Caldas " guide-description="Soy admirador de la flora y fauna que tenemos en Colombia.Gracias a eso he logrado compartir experiencias con visitantes extranjeros y nacionales que disfrutan capturar escenas y momentos, únicos que solo disfrutamos los amantes de la naturaleza." guide-img="#"/>
+      <GuideList class="guide-banner" guide-name="Javier Cañon" guide-location="Victoria Caldas " guide-description="Soy admirador de la flora y fauna que tenemos en Colombia.Gracias a eso he logrado compartir experiencias con visitantes extranjeros y nacionales que disfrutan capturar escenas y momentos, únicos que solo disfrutamos los amantes de la naturaleza." guide-img="#"/>
 
-      <GuideList class="guide-banner" guide-name="Daniel Romero Ocampo" guide-location="Manizales Caldas " guide-description="Soy amante de las aves desde siempre, me encanta estar rodeado del bosque y de ambientes naturales observando la avifauna." guide-img="#"/>
+      <GuideList class="guide-banner" guide-name="Daniel Romero" guide-location="Manizales Caldas " guide-description="Soy amante de las aves desde siempre, me encanta estar rodeado del bosque y de ambientes naturales observando la avifauna." guide-img="#"/>
 
-      <GuideList class="guide-banner" guide-name="Luis Alfredo Ramírez Mejia" guide-location="Chinchiná Caldas" guide-description="Soy viajero por la Naturaleza y observador de sus componentes bióticos  y abióticos , la flora y la fauna. Además de los accidentes geográficos." guide-img="#"/>
+      <GuideList class="guide-banner" guide-name="Luis Alfredo Ramírez" guide-location="Chinchiná Caldas" guide-description="Soy viajero por la Naturaleza y observador de sus componentes bióticos  y abióticos , la flora y la fauna. Además de los accidentes geográficos." guide-img="#"/>
 
-      <GuideList class="guide-banner" guide-name="Cristian Fernandez" guide-location="Victoria Caldas" guide-description="Soy una persona proactiva y aventurera, trabajo en la parte contable y desde hace nueve años empecé en la observación de aves, en mis espacios libre trabajo con nuestra empresa Avistar Birding en el oriente caldense y magdalena medio." guide-img="#"/>
+      <GuideList class="guide-banner" guide-name="Cristian Fernandez" guide-location="Victoria Caldas" guide-description="Soy una persona proactiva y aventurera, trabajo en la parte contable y desde hace nueve años empecé en la observación de aves." guide-img="#"/>
 
     </div>
  </div>

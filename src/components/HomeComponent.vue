@@ -11,6 +11,7 @@
     <InfoHome class="reveal"></InfoHome>
     <HomeAbout class="reveal" />
     <HomeSlider class="reveal"></HomeSlider>
+    <CarrouselBt class="reveal"></CarrouselBt>
     <AliadosList class="reveal"></AliadosList>
     <img class="reveal" src="../assets/brand/birds.jpg" alt="">
   </div>
@@ -42,6 +43,7 @@ import HomeSlider from "./organism/HomeSlider.vue";
 import MainHead from "./molecules/cards/MainHead.vue";
 import InfoHome from "./molecules/cards/InfoHome.vue";
 import AliadosList from "./molecules/cards/AliadosList.vue";
+import CarrouselBt from "./molecules/cards/CarrouselBt.vue";
 
 window.addEventListener('scroll', reveal);
 

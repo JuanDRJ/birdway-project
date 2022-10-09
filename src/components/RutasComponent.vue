@@ -2,7 +2,8 @@
   <div>
     <!-- <MainButton inner-text="Rutas buton"/>
     <SecondaryButton inner-text="Secondary rutas"/> -->
-    <BirdListLocation></BirdListLocation>
+    <!-- <BirdListLocation></BirdListLocation> -->
+    <RutasCard></RutasCard>
   </div>
 </template>
 
@@ -16,4 +17,5 @@ h1 {
 import MainButton from "./atoms/buttons/MainButton.vue";
 import SecondaryButton from "./atoms/buttons/SecondaryButton.vue";
 import BirdListLocation from "./organism/BirdListLocation.vue";
+import RutasCard from './molecules/cards/RutasCard.vue';
 </script>

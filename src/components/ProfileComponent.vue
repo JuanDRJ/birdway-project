@@ -1,6 +1,6 @@
 <template>
   <div class="sign-in">
-    <h1>Sign IN</h1>
+    <img src="../assets/brand/vista-guia.png" alt="">
   </div>
 </template>
 
@@ -8,6 +8,10 @@
 .sign-in {
   background-color: blueviolet;
   height: 600px;
+}
+
+img{
+  width: 100vw;
 }
 </style>
 
