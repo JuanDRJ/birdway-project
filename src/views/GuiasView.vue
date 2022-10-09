@@ -1,6 +1,6 @@
 <template>
   <div class="main-div">
-    <GuiasComponent></GuiasComponent>
+    <GuiasComponent class="guias-component"></GuiasComponent>
   </div>
 </template>
 
@@ -18,6 +18,20 @@ export default defineComponent({
 <style lang="scss" scoped>
   @import '../assets/style.scss';
   .main-div{
-    background-color: $blue;
+    background-color: $white;
+  }
+  .guias-component{
+    animation-name: fade1;
+    animation-duration: 1s;
+
+    @keyframes fade1 {
+    0% {
+      opacity: 0.1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
   }
 </style>

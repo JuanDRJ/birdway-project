@@ -1,7 +1,6 @@
 <template>
   <div>
     <HomeComponent />
-    <p>Vista home</p>
   </div>
 </template>
 

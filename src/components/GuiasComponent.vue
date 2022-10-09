@@ -51,6 +51,9 @@ import GuideList from './organism/GuideList.vue';
          margin: 5px 0px 0px 0px;
          font-size: 40px;
       }
+      h1{
+         font-family: 'Bree Serif' serif;
+      }
    }
 .guides-container{
   display: grid;

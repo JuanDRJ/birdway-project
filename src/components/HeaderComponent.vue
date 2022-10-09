@@ -100,10 +100,12 @@
 }
 
 .nav-a:hover {
-  /* color: #f7ce40; */
-  transition: 600ms ease-out;
+  box-sizing: border-box;
+  color: $hover-color;
+  transition: 100ms ease-out;
   color: $white;
-  box-shadow: inset 300px 0 0 0$main-color;
+  border-bottom: $hover-color 2px solid;
+  border-radius: 3px;
 }
 
 .search-container {

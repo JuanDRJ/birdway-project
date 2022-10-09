@@ -35,6 +35,8 @@
   background-color: #f9f9f9;
   animation-name: fade1;
   animation-duration: 1s;
+
+
   
   /*   
   opacity: 1;
@@ -62,12 +64,27 @@
     z-index: 5;
   }
 }
-@keyframes fade1 {
+.title{
+    animation-name: fadetitle;
+    animation-duration: 4s;
+}
+
+@keyframes fadetitle {
   0% {
     opacity: 0.1;
   }
   100% {
     opacity: 1;
+  }
+}
+@keyframes fade1 {
+  0% {
+    opacity: 0.1;
+    margin-right:400px
+  }
+  100% {
+    opacity: 1;
+    margin-right:0px
   }
 }
 </style>

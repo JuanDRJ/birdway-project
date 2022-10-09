@@ -12,7 +12,11 @@
       <div id="container">
         <div id="cont">
           <div class="footer_center">
-            <h3>Creado por: Juan David Ramírez</h3>
+            <a href="https://github.com/JuanDRJ">
+              <h3>Creado por: Juan David Ramírez <span>
+                <img src="https://pnggrid.com/wp-content/uploads/2022/03/Github-Logo-White.png" alt="">
+              </span></h3>
+            </a> 
           </div>
         </div>
       </div>
@@ -135,5 +139,24 @@ section {
   background-color: $dark-gray;
   color: $light-gray;
   padding: 10px;
+}
+
+img{
+  width: 30px;
+  margin-bottom: 3px;
+}
+
+a{
+  color: $white;
+  text-decoration: none;
+  transition: ease-out 300ms;
+}
+a:visited{
+  color: $white;
+}
+
+a:hover{
+  color:$hover-color;
+  transition: ease-out 300ms;
 }
 </style>
