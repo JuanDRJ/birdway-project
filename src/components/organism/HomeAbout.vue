@@ -1,14 +1,14 @@
 <template>
   <div class="home_about__container">
+    <h1>Información en tiempo real</h1>
     <div class="home_about__container___background">
+    
       <div class="info">
-        <h1>¿Qué es Birdway?</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
-          unde nisi pariatur asperiores veritatis consequatur delectus rerum
-          inventore excepturi omnis in eveniet, dicta commodi harum optio ut
-          blanditiis eaque ex.
-        </p>
+        
+        <ul>
+          Encuentra información relevante de:
+          
+        </ul>
       </div>
       <div>
         <img
@@ -27,6 +27,7 @@
 .home_about__container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   padding: 50px;
   background-color: $white  ;
   animation-name: fade;
@@ -34,6 +35,7 @@
  /*  background-image: url(../../assets/map/tophograpic.png); */
   background-blend-mode: exclusion;
   background-size: cover;
+  font-family: 'Plus Jakarta Sans' sans-serif;
 }
 .info {
   padding: 35px;
@@ -66,7 +68,7 @@
   background-color: none;
   display: flex;
   border-radius: 30px;
-  box-shadow: $box-shadow;
+  /* box-shadow: $box-shadow; */
   justify-content: space-evenly;
   align-items: center;
   width: 85%;

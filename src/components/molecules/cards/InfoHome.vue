@@ -63,7 +63,7 @@
 
 .button:hover {
   background-color: $hover-color;
-  transform: translateY(-10px);
+  transform: translateY(-5px);
   transition: all 300ms;
 }
 </style>
