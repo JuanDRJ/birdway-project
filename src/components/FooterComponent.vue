@@ -201,6 +201,7 @@ a:hover{
   font-family: 'Plus Jakarta Sans', sans-serif;
   padding: 10px;
   text-align: center;
+  
   .img img{
     width: 150px;
   }
@@ -210,6 +211,7 @@ a:hover{
   background-color: rgb(213, 213, 213);
   color: $dark-gray;
   padding: 10px;
+  border-top: $dark-gray 2px solid;
 }
 }
 </style>

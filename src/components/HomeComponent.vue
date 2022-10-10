@@ -9,9 +9,9 @@
     <MainHead class=""></MainHead>
     <HomeHeader class="reveal" />
     <InfoHome class="reveal"></InfoHome>
+    <CarrouselBt class="reveal"></CarrouselBt>
     <HomeAbout class="reveal" />
     <HomeSlider class="reveal"></HomeSlider>
-    <CarrouselBt class="reveal"></CarrouselBt>
     <AliadosList class="reveal"></AliadosList>
     <img class="reveal" src="../assets/brand/birds.jpg" alt="">
   </div>

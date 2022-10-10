@@ -102,10 +102,18 @@ background-position: 0 0,25px 25px;
     padding: 1em;
     color: $white;
     font-family: "Bree Serif";
+    text-shadow: 2px 2px 8px $dark-blue;
   }
+}
+h3{
+  font-family: 'Plus Jakarta Sans';
+  color:$white;
+  text-shadow: 2px 2px 8px $dark-blue;
+
 }
 p{
   font-family: 'Plus Jakarta Sans';
   color:$light-gray;
+  text-shadow: 2px 2px 8px $dark-blue;
 }
 </style>
