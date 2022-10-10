@@ -26,6 +26,11 @@
         ><span class="material-symbols-outlined">travel_explore</span>
         <div class="nav-text">Mapa Interactivo</div></router-link
       >
+
+      <router-link class="nav-a" to="/mapa"
+        ><span class="material-symbols-outlined">bar_chart</span>
+        <div class="nav-text">API</div></router-link
+      >
     </div>
     <!--   SEARCH -->
     <div class="search-container">

@@ -21,12 +21,12 @@
   .reveal{
     position: relative;
     opacity: 0.1;
-    transition: all 2s ;
+    transition: all 3s ;
     transform: translateY(50px);
   }
 
   .reveal.active{
-    transition: all 1s ;
+    transition: all 2s ;
     opacity: 1;
     transform: translateY(0px);
   }

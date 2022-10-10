@@ -1,7 +1,27 @@
 <template>
   <div class="main-footer">
-    <div>
-      <h1>Hola footer</h1>
+    <div class="upper-footer">
+
+      <div class="img">
+        <img src="../assets/brand/LOGO/birdway-gray.png" alt="">
+      </div>
+      <div>
+        <p>Acerca de</p>
+        <p>Políticas</p>
+      </div>
+
+      <div>
+        <p>Contáctenos</p>
+        <p>Ayuda</p>
+      </div>
+
+      <div>
+        <p>Donaciones</p>
+        <p>Preguntas Frecuentes</p>
+      </div>
+
+     
+
     </div>
     <!-- <footer>
             <p>footer</p>
@@ -135,9 +155,9 @@ section {
   margin-left: 40px;
 }
 .main-footer{
-  height: 200px;
-  background-color: $dark-gray;
-  color: $light-gray;
+  height: 150px;
+  background-color: rgb(213, 213, 213);
+  color: $dark-gray;
   padding: 10px;
 }
 
@@ -158,5 +178,38 @@ a:visited{
 a:hover{
   color:$hover-color;
   transition: ease-out 300ms;
+}
+
+.upper-footer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  padding: 15px;
+  .img img{
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+
+  .upper-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  padding: 10px;
+  text-align: center;
+  .img img{
+    width: 150px;
+  }
+}
+.main-footer{
+  height: fit-content;
+  background-color: rgb(213, 213, 213);
+  color: $dark-gray;
+  padding: 10px;
+}
 }
 </style>

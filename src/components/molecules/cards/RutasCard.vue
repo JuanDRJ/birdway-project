@@ -2,9 +2,9 @@
   <div class="main-card">
     <div class="l-container">
       <div class="b-game-card">
-        <div class="b-game-card__cover">
+        <a href="#" class="b-game-card__cover">
           <img src="../../../assets/brand/ROUTES/nevados.jpg" alt="" />
-        </div>
+        </a>
 
         <div class="b-game-card__cover">
           <img src="../../../assets/brand/ROUTES/rioblanco.jpg" alt="" />
@@ -44,6 +44,7 @@ $c_1: #353540;
   .b-game-card{
    img{
     width: 600px;
+    margin: 10px;
    }
   }
 }
@@ -52,4 +53,7 @@ $c_1: #353540;
   justify-content: center;
 }
 
+.b-game-card__cover:hover{
+  border: red 1px solid;
+}
 </style>
