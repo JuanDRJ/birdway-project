@@ -8,6 +8,7 @@ import GuiasView from '../views/GuiasView.vue';
 import LoginView from '../views/LoginView.vue';
 import ProfileView from '../views/ProfileView.vue';
 import SettingsView from '../views/SettingsView.vue';
+import ApiView from '../views/SettingsView.vue'
 /* import App from '../App.vue'; */
 
 // 2. Define some routes
@@ -27,6 +28,9 @@ const routes = [
   { path: '/mapa',
     name: MapasView, 
     component: MapasView},
+    { path: '/api',
+    name: ApiView, 
+    component: ApiView},
   { path: '/login',
     name: LoginView, 
     component: LoginView},

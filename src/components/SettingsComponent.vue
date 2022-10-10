@@ -1,6 +1,6 @@
 <template>
   <div class="main-settings">
-    <h1>Settings</h1>
+    <BirdListLocation></BirdListLocation>
   </div>
 </template>
 
@@ -11,4 +11,5 @@
 }
 </style>
 
-<script setup></script>
+<script setup>
+import BirdListLocation from './organism/BirdListLocation.vue';</script>
