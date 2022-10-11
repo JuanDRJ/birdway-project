@@ -78,6 +78,7 @@
   background-color: none;
   display: flex;
   border-radius: 30px;
+  height: 500px;
   /* box-shadow: $box-shadow; */
   justify-content: space-evenly;
   align-items: center;
@@ -99,8 +100,8 @@
 
 .home_about__container___background:hover {
   position: relative;
-  border-bottom: 30px solid $main-color;
-  margin-bottom: 20px;
+  border-bottom: 10px solid $main-color;
+  transform: translateY(-20px);
   padding: 0px;
   background: $main-color;
   color: $white;

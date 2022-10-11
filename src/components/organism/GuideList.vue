@@ -43,7 +43,7 @@
     background: $white;
     padding: 10px;
     width: 360px;
-    height: 240px;
+    height: 300px;
     border-radius: 20px;
     margin:5px;
     box-shadow: $box-shadow;
@@ -55,6 +55,7 @@
     backdrop-filter: blur(6.9px);
     -webkit-backdrop-filter: blur(6.9px);
     border: 1px solid rgba(255, 255, 255, 0.35);
+    font-family: 'Plus Jakarta Sans', sans-serif;
 
 }
 

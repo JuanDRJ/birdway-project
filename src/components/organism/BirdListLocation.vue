@@ -1,5 +1,12 @@
 <template>
-  <div>
+  <div class="main-table">
+    <select v-model="apiSelect">
+        <option value="1value">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+
+      <h1>{{apiSelect}}</h1>
     <table>
       <tbody>
         <tr v-for="todo in todos" :key="todo.id">
@@ -15,7 +22,26 @@
   </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@import '../../assets/style.scss';
+.main-table{
+  width: 700px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1em;
+  tr{
+    border: gray 1px solid;
+    color: $dark-blue;
+    td{
+      padding: 1em;
+    }
+
+  }
+}
+</style>
 
 <script>
 import axios from "axios";
@@ -25,6 +51,7 @@ export default {
     return {
       todos: null,
       regionCode: "CO-CAL",
+      apiSelect: '',
     };
   },
   mounted() {
