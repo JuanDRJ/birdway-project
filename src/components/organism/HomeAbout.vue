@@ -1,13 +1,16 @@
 <template>
   <div class="home_about__container">
-    <h1>Información en tiempo real</h1>
+   <div class="title">
+     <h1>Información en tiempo real</h1>
+   </div>
     <div class="home_about__container___background">
     
       <div class="info">
-        
+        <h3>Encuentra información relevante de:</h3>
         <ul>
-          Encuentra información relevante de:
-          
+          <li>Avistamientos recientes en un lugar</li>
+          <li>Sitios de interés para observar aves</li>
+          <li>Avistamientos cercanos en una región</li>
         </ul>
       </div>
       <div>
@@ -27,6 +30,7 @@
 .home_about__container {
   display: flex;
   justify-content: center;
+  align-items:center;
   flex-direction: column;
   padding: 50px;
   background-color: $white  ;
@@ -40,17 +44,23 @@
 .info {
   padding: 35px;
   width: 40%;
-  h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  h3 {
     text-align: center;
     color: $main-color;
     font-family: "Bree serif", serif;
     margin-left: 45px;
+    margin-bottom: 1em;
   }
   p {
     text-align: justify;
     font-size: 20px;
     margin-top: 30px;
     margin-left: 50px;
+    font-family: 'Plus Jakarta Sans';
   }
   img {
     width: 100px;
@@ -75,6 +85,7 @@
   border-bottom: 10px $main-color solid;
   transition: 0.5s;
   background-blend-mode: multiply;
+  font-family: 'Plus Jakarta Sans';
   img {
     border-radius: 20px;
     width: 80%;
@@ -97,7 +108,7 @@
   opacity: 0.9;
   background-image: radial-gradient(#6bae75 1px, #21882d 1px);
   background-size: 20px 20px;
-  h1 {
+  h3 {
     color: $white;
     text-shadow: 2px 2px 8px #1dff15;
   }
@@ -112,6 +123,14 @@
       rgba(101, 240, 46, 0.3) -10px 10px, rgba(50, 255, 22, 0.2) -15px 15px,
       rgba(111, 255, 8, 0.1) -20px 20px, rgba(92, 255, 109, 0.05) -25px 25px;
   }
+}
+
+.title{
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  font-family: 'Plus Jakarta Sans';
+  color: $dark-blue;
 }
 </style>
 
