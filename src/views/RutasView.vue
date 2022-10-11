@@ -1,7 +1,6 @@
 <template>
   <div>
     <RutasComponent></RutasComponent>
-    <p>Hola view</p>
   </div>
 </template>
 

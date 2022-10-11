@@ -3,13 +3,23 @@
     <!-- <MainButton inner-text="Rutas buton"/>
     <SecondaryButton inner-text="Secondary rutas"/> -->
     <!-- <BirdListLocation></BirdListLocation> -->
-    <RutasCard></RutasCard>
+    <RutasCard class="rutas"></RutasCard>
   </div>
 </template>
 
 <style lang="scss" scoped>
-h1 {
-  color: black;
+.rutas{
+  animation-name: fade;
+  animation-duration: 500ms;
+
+  @keyframes fade {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1
+  }
+}
 }
 </style>
 
