@@ -1,12 +1,11 @@
 <template>
   <div class="main-table">
     <select v-model="apiSelect">
-        <option value="1value">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
+        <option value="https://api.ebird.org/v2/data/obs/geo/recent?lat=5.031&lng=-75.4&sort=species">Manizales</option>
+        <option value="https://api.ebird.org/v2/data/obs/geo/recent?lat=11.32&lng=-74.0&sort=species">Santa Marta</option>
+        <option value="https://api.ebird.org/v2/data/obs/geo/recent?lat=5.38&lng=-75.16&sort=species">Pensilvania</option>
       </select>
-
-      <h1>{{apiSelect}}</h1>
+      <button @click="getTodos()">GET API INFO </button>
     <table>
       <tbody>
         <tr v-for="todo in todos" :key="todo.id">
@@ -51,16 +50,16 @@ export default {
     return {
       todos: null,
       regionCode: "CO-CAL",
-      apiSelect: '',
+      apiSelect: 'https://api.ebird.org/v2/data/obs/geo/recent?lat=5.031&lng=-75.4&sort=species',
     };
   },
   mounted() {
     console.log("hola vue desde mounted");
-    this.getTodos();
   },
   methods: {
     getTodos() {
-      let API = "https://api.ebird.org/v2/data/obs/CO-CAL/recent";
+      let API = this.apiSelect ;
+      console.log(API)
       console.log("Hola vue desde methods");
       axios
         .get(API, {
@@ -75,3 +74,5 @@ export default {
   },
 };
 </script>
+
+
