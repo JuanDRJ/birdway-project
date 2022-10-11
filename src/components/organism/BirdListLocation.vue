@@ -3,9 +3,21 @@
     <select v-model="apiSelect">
         <option value="https://api.ebird.org/v2/data/obs/geo/recent?lat=5.031&lng=-75.4&sort=species">Manizales</option>
         <option value="https://api.ebird.org/v2/data/obs/geo/recent?lat=11.32&lng=-74.0&sort=species">Santa Marta</option>
-        <option value="https://api.ebird.org/v2/data/obs/geo/recent?lat=5.38&lng=-75.16&sort=species">Pensilvania</option>
+        <option value="https://api.ebird.org/v2/data/obs/geo/recent?lat=5.38&lng=-75.16&sort=species">Pensilvania/Caldas</option>
+        <option value="https://api.ebird.org/v2/data/obs/geo/recent?lat=5.38&lng=-75.16&sort=species">Bogotá</option>
+        <option value="https://api.ebird.org/v2/data/obs/geo/recent?lat=5.38&lng=-75.16&sort=species">Medellín</option>
+        <option value="https://api.ebird.org/v2/data/obs/geo/recent?lat=5.38&lng=-75.16&sort=species">Chocó</option>
+        <option value="https://api.ebird.org/v2/data/obs/geo/recent?lat=5.38&lng=-75.16&sort=species">Amazonas</option>
+        <option value="https://api.ebird.org/v2/data/obs/geo/recent?lat=5.38&lng=-75.16&sort=species">Santander</option>
       </select>
       <button @click="getTodos()">GET API INFO </button>
+
+      <div class="head">
+        <p>Nombre Común</p>
+        <p>Nombre Cientifico</p>
+        <p>Localización</p>
+        <p>Fecha</p>
+      </div>
     <table>
       <tbody>
         <tr v-for="todo in todos" :key="todo.id">
@@ -39,6 +51,14 @@
     }
 
   }
+}
+
+.head{
+  display: flex;
+  justify-content: space-evenly;
+  gap:7em;  
+  padding: 1em 1em 0.5em 0.5em;
+  font-size: 15px;
 }
 </style>
 
